@@ -1,0 +1,19 @@
+<template>
+  <!-- We use song information here. lwc:if is the same as if:true. 
+   We use it to avoid an error message when song infos are not available, for any reason. 
+   You can try to remove the condition, to test  -->
+  <template lwc:if={song}>
+    <!-- On the envelope, we basically store two parts: the album picture on the left, and the song information on the right.
+      We will define their positions on the CSS file -->
+    <div class="envelope">
+      <!-- Do not think about positions here. Positions are defined on the CSS file -->
+      <!-- Left side -->
+      <img class="imgcover" src={song.albumPhoto} />
+      <!-- Right side -->
+      <h1 class="song-info">
+        You are listening to:<br />
+        {song.artistName}, {song.musicName}.
+      </h1>
+    </div>
+  </template>
+</template>

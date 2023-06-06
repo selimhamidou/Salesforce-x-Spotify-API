@@ -2,8 +2,8 @@
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>56.0</apiVersion>
     <isExposed>true</isExposed>
-    <masterLabel>Restaurants Map</masterLabel>
-    <description>Map</description>
+    <masterLabel>Best Component Ever</masterLabel>
+    <description>This is a demo component.</description>
     <targets>
         <target>lightning__RecordPage</target>
         <target>lightning__AppPage</target>

@@ -1,0 +1,31 @@
+/* The envelope is containing everything(ie the album photo and the songs information). It's a rectangle of 400px x 200px.
+We keep it simple, paint it blank, and will add some elements inside it */
+.envelope {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 200px;
+  width: 400px;
+  background-color: white;
+}
+
+/* The image is on the left side. We define it as a square of dimensions of 200px x 200px */
+.imgcover {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 200px;
+  width: 200px;
+}
+
+/* We define the writing, but it's still up to you to modify it */
+.song-info {
+  position: absolute;
+  top: 50px;
+  left: 210px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11pt;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+}
